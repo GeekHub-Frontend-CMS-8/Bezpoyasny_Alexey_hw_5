@@ -1,6 +1,3 @@
-<!-- В связи с нехваткой времени на этой неделе не успел доделать футер и офрмить
-увеличение картинок (попап окна), но пример  их реализации есть в прошлой домашке-->
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,27 +5,27 @@
     <meta charset="UTF-8">
     <title>Strict</title>
     <link rel="stylesheet" href="style/reset.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="style/styles.css">
 </head>
 <body>
-    <header class="wrap header-wrapper">
+    <header class="header-wrapper">
         <div class="header-wrapper-logo all-wrapper-inside">
             <a href="index.html"><img src="img/logo.png" alt="logo"></a>
         </div>
     </header>
-    <section class="wrap banner-wrapper">
+    <section class="banner-wrapper">
         <div class="all-wrapper-inside">
             <div class="conteiner-align-center main-title-wrapper">
                 <h1 class="main-title">STRICT</h1>
             </div>
             <p class="banner-content">STRICT is a responsive theme with a a clean and minimal look.</p>
             <button class="main-button button-call conteiner-align-center" value="call">Call to action</button>
-            <a href="#title" class="anchor conteiner-align-center">&or;</a>
+            <div class="anchor conteiner-align-center"> <a href="#title"></a></div>
         </div>
 
     </section>
-    <section class="wrap simple-end-pure-design-wrapper">
+    <section class="simple-end-pure-design-wrapper">
         <div class="all-wrapper-inside">
             <h2 class="title" id="title">Simple & pure design.</h2>
             <p class="content simple-end-pure-design-content">Designers everywhere gush with admiration upon seeing a web design and exclaim "its beautiful,
@@ -37,60 +34,125 @@
             to spot a good example of clean design.</p>
         </div>
     </section>
-    <section class="wrap feature-wrapper">
+    <section class="feature-wrapper">
         <div class="all-wrapper-inside feature-flex">
             <div class="feature-content">
-                <figure class="feature-img-conteiner">
+                <div class="feature-img-conteiner">
                     <img class="img-feature" src="img/feature_mobile.png" alt="responsive">
-                </figure>
+                </div>
                 <h4 class="feature-content-title content">Optimized for all devices</h4>
                 <p class="content">STRICT has been designed to be fully responsive on all devices</p>
             </div>
             <div class="feature-content">
-                <figure class="feature-img-conteiner">
+                <div class="feature-img-conteiner">
                     <img class="img-feature" src="img/feature_telegram.png" alt="clean design">
-                </figure>
+                </div>
                 <h4 class="feature-content-title content">Clean & Minimal Design</h4>
                 <p class="content">This multipurpose theme is especially created
                     to be used for different projects.</p>
             </div>
             <div class="feature-content">
-                <figure class="feature-img-conteiner">
+                <div class="feature-img-conteiner">
                     <img class="img-feature" src="img/feature_speaker.png" alt="font awesome">
-                </figure>
+                </div>
                 <h4 class="feature-content-title content">Font Awesome Icon</h4>
                 <p class="content">This multipurpose theme is especially created
                     to be used for different projects.</p>
             </div>
         </div>
     </section>
-    <section class="wrap portfolio-wrapper">
+    <section class="portfolio-wrapper">
         <div class="all-wrapper-inside">
             <h2 class="title">Showcase your work like a pro.</h2>
             <p class="content"> Contact me if you like my work</p>
             <div class="portfolio-flex all-wrapper-inside">
-                <figure class="portfolio-img-conteiner">
-                    <img class="img-portfolio" src="img/portfolio_img1.jpg" alt="img-1">
-                </figure>
-                <figure class="portfolio-img-conteiner">
-                    <img class="img-portfolio" src="img/portfolio_img2.jpg" alt="img-2">
-                </figure>
-                <figure class="portfolio-img-conteiner">
-                    <img class="img-portfolio" src="img/portfolio_img3.jpg" alt="img-3">
-                </figure>
-                <figure class="portfolio-img-conteiner">
-                    <img class="img-portfolio" src="img/portfolio_img4.jpg" alt="img-4">
-                </figure>
-                <figure class="portfolio-img-conteiner">
-                    <img class="img-portfolio" src="img/portfolio_img5.jpg" alt="img-5">
-                </figure>
-                <figure class="portfolio-img-conteiner">
-                    <img class="img-portfolio" src="img/portfolio_img6.jpg" alt="img-6">
-                </figure>
+                <div class="all-portfolio-conteiner">
+                    <div class="portfolio-img-conteiner1"></div>
+                    <div class="overlay">
+                        <div class="icon-img">
+                            <a href="#big-img-1"><img src="img/portfolio-Icon.png" alt="zoom"></a>
+                        </div>
+                        <div class="icon-img">
+                            <a href="#"><img src="img/portfolio-Icon2.png" alt="link"></a>
+                        </div>
+                    </div>
+                </div>
+            <div class="big-img-contriner" id="big-img-1">
+                <div class="close">
+                    <a href="#">X</a>
+                </div>
+                <div class="big-img"></div>
+            </div>
+
+
+
+                <div class="all-portfolio-conteiner">
+                    <div class="portfolio-img-conteiner2"></div>
+                    <div class="overlay">
+                        <div class="icon-img">
+                            <a href="#"><img src="img/portfolio-Icon.png" alt="zoom"></a>
+                        </div>
+                        <div class="icon-img">
+                            <a href="#"><img src="img/portfolio-Icon2.png" alt="link"></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="all-portfolio-conteiner">
+                    <div class="portfolio-img-conteiner3"></div>
+                    <div class="overlay">
+                        <div class="icon-img">
+                            <a href="#"><img src="img/portfolio-Icon.png" alt="zoom"></a>
+                        </div>
+                        <div class="icon-img">
+                            <a href="#"><img src="img/portfolio-Icon2.png" alt="link"></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="all-portfolio-conteiner">
+                    <div class="portfolio-img-conteiner4"></div>
+                    <div class="overlay">
+                        <div class="icon-img">
+                            <a href="#"><img src="img/portfolio-Icon.png" alt="zoom"></a>
+                        </div>
+                        <div class="icon-img">
+                            <a href="#"><img src="img/portfolio-Icon2.png" alt="link"></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="all-portfolio-conteiner">
+                    <div class="portfolio-img-conteiner5"></div>
+                    <div class="overlay">
+                        <div class="icon-img">
+                            <a href="#"><img src="img/portfolio-Icon.png" alt="zoom"></a>
+                        </div>
+                        <div class="icon-img">
+                            <a href="#"><img src="img/portfolio-Icon2.png" alt="link"></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="all-portfolio-conteiner">
+                    <div class="portfolio-img-conteiner6"></div>
+                    <div class="overlay">
+                        <div class="icon-img">
+                            <a href="#"><img src="img/portfolio-Icon.png" alt="zoom"></a>
+                        </div>
+                        <div class="icon-img">
+                            <a href="#"><img src="img/portfolio-Icon2.png" alt="link"></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <section class="wrap feedback-wrapper">
+    <section class="feedback-wrapper">
         <div class="all-wrapper-inside">
             <h2 class="title feedback-title">Stay with us</h2>
             <p class="content feedback-content">We ensure quailty & support</p>
@@ -113,9 +175,15 @@
             </form>
         </div>
     </section>
-    <footer class="wrap footer-wrapper">
+    <footer class="footer-wrapper">
         <div class="all-wrapper-inside">
-            <p class="content">Copyritht 2014, STRICT</p>
+                    <div class="footer-conteiner">
+                        <p class="content copyritht">Copyritht 2014, STRICT</p>
+                        <a class="img-footer facebook" href="#"><img src="img/footer-facebook.png" alt="facebook"></a>
+                        <a class="img-footer twitter" href="#"><img src="img/footer-twitter.png" alt="twitter"></a>
+                        <a class="img-footer google" href="#"><img src="img/footer-google+.png" alt="google+"></a>
+                        <a class="img-footer linked" href="#"><img src="img/footer-linked-in.png" alt="linked-in"></a>
+                    </div>
         </div>
     </footer>
 </body>
